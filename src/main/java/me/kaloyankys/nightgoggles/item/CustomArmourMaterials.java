@@ -10,7 +10,7 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
-public enum CopperArmourMaterial implements ArmorMaterial {
+public enum CustomArmourMaterials implements ArmorMaterial {
     COPPER_ARMOUR_MATERIAL("copper", 8, new int[]{1, 1, 1, 1}, 0, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(Items.AMETHYST_SHARD);
     });
@@ -25,7 +25,7 @@ public enum CopperArmourMaterial implements ArmorMaterial {
     private final float knockbackResistance;
     private final Lazy<Ingredient> repairIngredientSupplier;
 
-    CopperArmourMaterial(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
+    CustomArmourMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.protectionAmounts = protectionAmounts;

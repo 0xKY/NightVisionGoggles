@@ -8,9 +8,4 @@ public class NightGoggles extends ArmorItem {
     public NightGoggles(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
         super(material, slot, settings);
     }
-
-    @Override
-    public ArmorMaterial getMaterial() {
-        return CopperArmourMaterial.COPPER_ARMOUR_MATERIAL;
-    }
 }
