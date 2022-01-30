@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "cAc"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "nightgoggles:nightvision_goggles",
+    "count": 1
+  }
+}

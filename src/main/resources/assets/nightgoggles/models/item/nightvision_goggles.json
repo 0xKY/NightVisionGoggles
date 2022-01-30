@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "nightgoggles:item/nightvision_goggles"
+  }
+}

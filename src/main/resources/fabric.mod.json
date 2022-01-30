@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "nightgoggles",
+  "version": "${version}",
+  "name": "NightGoggles",
+  "description": "Adds Night Vision Goggles!",
+  "authors": [
+    "KaloyanKYS"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/nightgoggles/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.kaloyankys.nightgoggles.client.NightgogglesClient"
+    ],
+    "main": [
+      "me.kaloyankys.nightgoggles.Nightgoggles"
+    ]
+  },
+  "mixins": [
+    "nightgoggles.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17"
+  }
+}
